@@ -38,7 +38,7 @@ function App() {
   return (
     <>
       <div className="maincontainer w-[100vw] h-[100vh]">
-        <div className="relative bg-orange-500 sm:w-[100%] sm:h-[40vh] lg:h-[50vh] xl:h-[40vh] new-mobile:h-[20vh]">
+        <div className="relative bg-orange-500 sm:w-[100%] sm:h-[40vh] lg:h-[50vh] xl:h-[40vh] new-mobile:h-[30vh]">
           {/* Child One  */}
           <div className="bg-white new-mobile:w-[280px] new-mobile:h-[100px] sm:w-[280px] sm:h-[120px] new-sm:w-[350px] lg:w-[400px] lg:h-[150px] rounded-bl-lg rounded-br-lg m-auto new-mobile:mt-[0.2rem]  sm:mt-[0.5rem]">
             <img
@@ -56,11 +56,11 @@ function App() {
 
             <div
               className="title flex justify-center items-center text-center new-mobile:text-[21px] sm:text-3xl uppercase font-bold
-            sm:w-[350px] sm:h-[50px] border-[2px]"
+            sm:w-[350px] sm:h-[50px] m-auto"
             >
               Banking DashBoard
             </div>
-            <div className="text-center mt-[1rem] m-auto new-mobile:text-[17px]  sm:text-2xl font-bold text-orange-600 border-[2px]">
+            <div className="text-center mt-[1rem] m-auto new-mobile:text-[17px]  sm:text-2xl font-bold text-orange-600">
               Current Balance:
               <span className="font-bold">
                 ${currentbalance === 1000 ? "1000" : currentbalance}
